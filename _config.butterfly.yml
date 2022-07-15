@@ -77,11 +77,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://cdn.jsdelivr.net/gh/isundae/imgs@main/blog/202207151624515.png
+favicon: http://img.isundae.cn/blog/202207151624515.png
 
 # Avatar (頭像)
 avatar:
-  img: https://cdn.jsdelivr.net/gh/isundae/imgs@main/blog/202207151516828.jpg
+  img: http://img.isundae.cn/blog/202207151516828.jpg
   effect: false
 
 # Disable all banner image
