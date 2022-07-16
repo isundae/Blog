@@ -98,11 +98,11 @@ index_img: https://img.isundae.cn/blog/202207162101163.jpg
 default_top_img: https://img.isundae.cn/blog/202207162101163.jpg
 
 # The banner image of archive page
-archive_img:
+archive_img: https://img.isundae.cn/blog/202207162101163.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: https://img.isundae.cn/blog/202207162101163.jpg
 
 # The banner image of tag page
 # format:
@@ -853,12 +853,12 @@ CDN:
   # The CDN provider of internal scripts (主題內部 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # Dev version can only choose. ( dev版的主題只能設置為 local )
-  internal_provider: custom
+  internal_provider: local
 
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: custom
+  third_party_provider: jsdelivr
 
   # Add version number to CDN, true or false  
   version: false

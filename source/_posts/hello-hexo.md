@@ -3,7 +3,6 @@ title: Hello-Hexo
 date: 2022-07-15 16:08:58
 tags: hexo
 categories: hexo
-cover: https://img.isundae.cn/blog/202207151615934.png
 ---
 
 ![](https://img.isundae.cn/blog/202207151615934.png)
