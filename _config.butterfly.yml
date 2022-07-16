@@ -308,7 +308,7 @@ valine:
   appId: Q9zgz9kv5uu1GJrIXtzip0gC-gzGzoHsz # leancloud application app id
   appKey: 4c6JcqNKYbiL3asbUJovRPFY # leancloud application app key
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  serverURLs: https://q9zgz9kv.lc-cn-n1-shared.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
   visitor: false
   option:
@@ -639,7 +639,8 @@ aside:
     category: true
   card_author:
     enable: true
-    description: 热衷学习，热衷生活
+    description: <u>「 菜鸟全栈工程师 」</u> <br> ¿ <br> 前 途 似 海 渺 渺<br>来 日 方 长 漫 漫<br>与 其 互 为 人 间<br>不 如 自 成 宇 宙
+
     button:
       enable: true
       icon: fab fa-github
@@ -647,7 +648,7 @@ aside:
       link: https://github.com/isundae
   card_announcement:
     enable: true
-    content: 人生就像品茗，懂得吃苦，才能回甘！
+    content: 人生就像品茗，懂得吃苦，才能回甘！<br> <img src="https://img.isundae.cn/blog/202207162302238.jpg" width="100%" height="100%"/>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -691,7 +692,7 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: true
+  enable: false
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
