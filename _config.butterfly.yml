@@ -2,17 +2,30 @@
 # see https://butterfly.js.org/posts/4aa8abbe/#導航菜單
 # --------------------------------------
 
+# menu:
+#   🎯 首页: / || fas fa-home
+#   🚀 时间轴: /archives/ || fas fa-archive
+#   📑 主題頁面: /posts/dc584b87/
+#   ✨ 标签: /tags/ || fas fa-tags
+#   📌 分类: /categories/ || fas fa-folder-open
+#   # 娱乐||fas fa-list:
+#   🐼 图片: /Gallery/ || fas fa-images
+#     # 音乐: /music/ || fas fa-music
+#     # 电影: /movies/ || fas fa-video
+#   # 友链: /link/ || fas fa-link
+#   ❓ 关于: /about/ || fas fa-heart
+
 menu:
-  首页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
+  🎯首页: / 
+  🚀时间轴: /archives/ 
+  ✨标签: /tags/ 
+  📌分类: /categories/
   # 娱乐||fas fa-list:
-  图片: /Gallery/ || fas fa-images
+  🐼图片: /Gallery/ 
     # 音乐: /music/ || fas fa-music
     # 电影: /movies/ || fas fa-video
   # 友链: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  ❓关于: /about/ 
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -36,11 +49,12 @@ copy:
 # formal:
 #   icon: link || the description
 social:
+  fa-brands fa-weixin: https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzA4NTAzNzQ2OQ== || WeiXin
   fab fa-github: https://github.com/isundae || Github
   fas fa-envelope: mailto:isundae@qq.com.com || Email
   fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=64786630&site=qq&menu=yes || QQ
   fa-brands fa-tiktok: https://www.douyin.com/user/MS4wLjABAAAAEngUr2_ciVE5pmhPPhdjwzzIYo84Zr1js0OQGqmDRTg || 抖音
-
+  fas fa-rss: /atom.xml || RSS
 
 
 # search (搜索)
