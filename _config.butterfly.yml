@@ -17,6 +17,15 @@
 
 menu:
   🎯首页: / 
+  🪅代码: 
+      Html: /categories/html/ || fa-brands fa-html5
+      Css: /categories/css/ || fa-brands fa-css3-alt
+      JavaScript: /categories/javascript/ || fa-brands fa-js-square
+      TypeScript: /categories/typescript/ || fa-brands fa-js-square
+      Nodejs: /categories/nodejs/ || fa-brands fa-node-js
+      Vue: /categories/vue/ || fa-brands fa-vuejs
+      Windows: /categories/windows/ || fa-brands fa-windows
+      Unkown: /categories/code/ || fa-solid fa-circle-question
   🚀时间轴: /archives/ 
   ✨标签: /tags/ 
   📌分类: /categories/
