@@ -5,7 +5,7 @@ tags: hexo
 categories: hexo
 ---
 
-![](https://img.isundae.cn/blog/202207151615934.png)
+![](https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041401508.png)
 
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 

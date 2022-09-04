@@ -3,7 +3,7 @@ title: 程序设计的 SOLID 原则
 date: 2022-07-18 14:14:29
 tags: [typescript,程序设计,SOLID]
 categories: typescript
-cover: https://img.isundae.cn/blog/202207181513413.jpg
+cover: https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041400219.jpg
 ---
 
 # 程序设计的 SOLID 原则🎯

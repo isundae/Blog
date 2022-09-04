@@ -17,20 +17,30 @@
 
 menu:
   🎯首页: / 
-  🪅代码: 
+  🪅前端: 
       Html: /categories/html/ || fa-brands fa-html5
       Css: /categories/css/ || fa-brands fa-css3-alt
-      JavaScript: /categories/javascript/ || fa-brands fa-js-square
-      TypeScript: /categories/typescript/ || fa-brands fa-js-square
-      Nodejs: /categories/nodejs/ || fa-brands fa-node-js
+      Js: /categories/javascript/ || fa-brands fa-js-square
+      Ts: /categories/typescript/ || fa-brands fa-js-square
+      Angular: /categories/angular/ || fa-brands fa-angular
+      React: /categories/react/ || fa-brands fa-react
       Vue: /categories/vue/ || fa-brands fa-vuejs
+  🤖后端: 
+      Nodejs: /categories/nodejs/ || fa-brands fa-node-js
+      Nestjs: /categories/nestjs/ || fa-brands fa-battle-net
+      Java: /categories/java/ || fa-brands fa-java
+      Python: /categories/python/ || fa-brands fa-python
+      Docker: /categories/docker/ || fa-brands fa-docker
+      Git: /categories/git/ || fa-brands fa-square-git
+      DB: /categories/db/ || fa-sharp fa-solid fa-database
+  🐼工具:
+      VSCode: /categories/vscode/ || fa-solid fa-lightbulb-on
       Windows: /categories/windows/ || fa-brands fa-windows
-      Unkown: /categories/code/ || fa-solid fa-circle-question
   🚀时间轴: /archives/ 
   ✨标签: /tags/ 
   📌分类: /categories/
   # 娱乐||fas fa-list:
-  🐼图片: /Gallery/ 
+  🖼️图片: /Gallery/ 
     # 音乐: /music/ || fas fa-music
     # 电影: /movies/ || fas fa-video
   # 友链: /link/ || fas fa-link
@@ -104,28 +114,29 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://img.isundae.cn/blog/202207181726917.png
+favicon: https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041345182.png
 
 # Avatar (頭像)
 avatar:
-  img: https://img.isundae.cn/blog/202207151516828.jpg
+  img: https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041344241.jpg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://img.isundae.cn/blog/202207162101163.jpg
+index_img: https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041346342.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://img.isundae.cn/blog/202207162101163.jpg
+default_top_img: https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041346342.png
 
 # The banner image of archive page
-archive_img: https://img.isundae.cn/blog/202207162101163.jpg
+# archive_img: https://img.isundae.cn/blog/202207162101163.jpg
+archive_img: https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041346342.png
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://img.isundae.cn/blog/202207162101163.jpg
+tag_img: https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041346342.png
 
 # The banner image of tag page
 # format:
@@ -151,7 +162,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://img.isundae.cn/blog/202207181426644.png
+    - https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041352506.png
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -163,7 +174,7 @@ error_img:
 error_404:
   enable: true
   subtitle: 'Page Not Found'
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041351563.png
 
 post_meta:
   page: # Home Page
@@ -436,7 +447,7 @@ footer:
   owner:
     enable: true
     since: 2016
-  custom_text: <a href="https://beian.miit.gov.cn/"><img class="icp-icon" src="https://img.isundae.cn/blog/202207151505530.svg"><span>蒙ICP备14004681号</span></a>
+  custom_text: <a href="https://beian.miit.gov.cn/"><img class="icp-icon" src="https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041351726.svg"><span>蒙ICP备14004681号</span></a>
   copyright: false # Copyright of theme and framework
 
 # Analysis
@@ -672,7 +683,7 @@ aside:
       link: https://github.com/isundae
   card_announcement:
     enable: true
-    content: 人生就像品茗，懂得吃苦，才能回甘！<br> <img src="https://img.isundae.cn/blog/202207162302238.jpg" width="100%" height="100%"/>
+    content: 人生就像品茗，懂得吃苦，才能回甘！<br> <img src="https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041353179.jpg" width="100%" height="100%"/>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
