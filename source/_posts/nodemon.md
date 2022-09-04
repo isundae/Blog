@@ -1,11 +1,11 @@
 ---
 title: nodemon
 date: 2022-07-18 08:49:46
-cover: https://img.isundae.cn/blog/202207180929280.png
+cover: https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041448201.png
 tags: nodemon
 ---
 
-![](https://img.isundae.cn/blog/202207180929280.png)
+![](https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041448201.png)
 
 
 
