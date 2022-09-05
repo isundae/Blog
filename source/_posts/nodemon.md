@@ -1,6 +1,6 @@
 ---
 title: nodemon
-date: 2022-07-18 08:49:46
+date: 2022-07-18 08:12:46
 cover: https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209041448201.png
 tags: nodemon
 ---

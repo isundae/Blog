@@ -10,7 +10,7 @@ cover: https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/20220
 
 ## ESLint
 
-ESLint: lint 代码的主要工具，所有的一切皆基于此包[前往官网](https://link.juejin.cn/?target=https%3A%2F%2Feslint.bootcss.com "https://eslint.bootcss.com")
+ESLint: lint 代码的主要工具，所有的一切皆基于此包[前往官网](https://eslint.bootcss.com "https://eslint.bootcss.com")
 
 ### 初始化项目
 
@@ -60,13 +60,13 @@ ESLint 运行时需要一个配置文件。这个配置文件可以自动生成�
 
 
 
-用VSCode打开这个项目：
+用`VSCode`打开这个项目：
 
 ![](https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209050928241.png)
 
 
 
-.eslintrc.js文件：
+`.eslintrc.js`文件：
 
 ![](https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209050929269.png)
 
@@ -91,19 +91,17 @@ ESLint 运行时需要一个配置文件。这个配置文件可以自动生成�
 
 ![](https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209052014244.png)
 
-CLI 工具已经自动添加了两个依赖
-
-`@typescript-eslint/eslint-plugin`与`@typescript-eslint/parser`
+`CLI` 工具已经自动添加了两个依赖 : `@typescript-eslint/eslint-plugin`与`@typescript-eslint/parser`
 
 ### 手动安装依赖
 
-`pnpm add -D typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser -D`
+`pnpm add typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser -D`
 
 
 
 ### 设置依赖`tsconfig.ts`配置
 
-```json
+```JavaScript
 parserOptions: {
     project: 'tsconfig.json',
     tsconfigRootDir: __dirname,
@@ -143,6 +141,8 @@ parserOptions: {
 
 ```
 
+`我的配置🐼`
+
 ```json
 {
   "arrowParens": "always",
@@ -164,9 +164,6 @@ parserOptions: {
   "vueIndentScriptAndStyle": false,
   "singleAttributePerLine": false
 }
-atting": "auto"
-}
-
 ```
 
 ### 在`package.json`中的`script`中添加以下命令
@@ -180,7 +177,6 @@ atting": "auto"
 ```
 
 ![](https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209052032035.png)
-
 
 
 ## 解决`eslint`与`prettier`的冲突
@@ -205,10 +201,9 @@ atting": "auto"
 ![](https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209052029202.png)
 
 
-
 ### 命令行格式化
 
-#### （1）格式化全部文档
+#### 格式化全部文档
 
 ```bash
 npx prettier --write .
@@ -216,7 +211,7 @@ npx prettier --write .
 yarn prettier --write .
 ```
 
-#### （2）格式化指定文档
+#### 格式化指定文档
 
 ```bash
 npx prettier --write src/components/Button.js
@@ -224,16 +219,13 @@ npx prettier --write src/components/Button.js
 yarn prettier --write src/components/Button.js
 ```
 
-#### （3）检查文档是否已格式化
+#### 检查文档是否已格式化
 
 ```bash
 npx prettier --check .
 //或
 yarn prettier --check .
 ```
-
-
-
 
 
 # Configuring ESLint
