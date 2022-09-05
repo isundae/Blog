@@ -1,6 +1,12 @@
-# ESLint + TypeScript + Prettier
+---
+title: ESLint + TypeScript + Prettier
+date: 2022-08-15 16:08:58
+tags: [ESLint,TypeScript,Prettier]
+categories: nodejs
+cover: https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209052112518.png
+---
 
-
+![](https://6973-isundae-3gbm0y3523031b2a-1258186980.tcb.qcloud.la/blog/202209052112518.png)
 
 ## ESLint
 
